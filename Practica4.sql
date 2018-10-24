@@ -12,7 +12,7 @@ insert into Cajero (iID_Cajero, vNombre_Cajero, cTurno_Cajero) values (2, 'Susan
 insert into Cajero (iID_Cajero, vNombre_Cajero, cTurno_Cajero) values (3, 'Laura Navarro', 'M')
 insert into Cajero (iID_Cajero, vNombre_Cajero, cTurno_Cajero) values (4, 'Ramon Castro', 'V')
 insert into Cajero (iID_Cajero, vNombre_Cajero, cTurno_Cajero) values (5, 'Rosa Gonzalez', 'V')
-insert into Cajero (iID_Cajero, vNombre_Cajero, cTurno_Cajero) values (6, 'Francisco Treviño', 'M')
+insert into Cajero (iID_Cajero, vNombre_Cajero, cTurno_Cajero) values (6, 'Francisco TreviÃ±o', 'M')
 insert into Cajero (iID_Cajero, vNombre_Cajero, cTurno_Cajero) values (7, 'Gabriela Motes', 'M')
 insert into Cajero (iID_Cajero, vNombre_Cajero, cTurno_Cajero) values (8, 'Alejandro Moya', 'V')
 insert into Cajero (iID_Cajero, vNombre_Cajero, cTurno_Cajero) values (9, 'Javier Iglesias', 'V')
