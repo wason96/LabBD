@@ -1,3 +1,11 @@
+--INTEGRANTES
+--EIMY VERONICA RODRIGUEZ RODRIGUEZ 1807142
+--BRUNO MARTINEZ TOVAR 1687064
+--OSMAR FRANCISCO MORALES MARTINEZ 1887839
+--LAURA DENISE NAVARRO REYES 1726593
+--JUAN CARLOS ESQUIVEL RANGEL 1807521
+
+
 --CREACION DE BASE DE DATOS -------------------------------------------------------------------
 --CREACION DE BASE DE DATOS -------------------------------------------------------------------
 --CREACION DE BASE DE DATOS -------------------------------------------------------------------
@@ -142,7 +150,7 @@ create table Descuento_Factura(
 --INSERTS  -------------------------------------------------------------------------------------
 --INSERTS  -------------------------------------------------------------------------------------
 
-insert into Producto_Area values(1, 'L√°cteos')
+insert into Producto_Area values(1, 'L·cteos')
 insert into Producto_Area values(2, 'Jugos y Bebidas')
 insert into Producto_Area values(3, 'Postres Congelados')
 insert into Producto_Area values(4, 'Dulces y Chocolates')
@@ -152,30 +160,30 @@ insert into Producto_Area values(7, 'Botanas y Fruta Seca')
 insert into Producto_Area values(8, 'Pan y Tortillas Empacados')
 insert into Producto_Area values(9, 'Enlatados y Conservas')
 insert into Producto_Area values(10, 'Especias y Sazonadores')
-insert into Producto_Area values(11, 'Caf√©, T√© y Sustitutos')
+insert into Producto_Area values(11, 'CafÈ, TÈ y Sustitutos')
 insert into Producto_Area values(12, 'Cereales y Barras')
 insert into Producto_Area values(13, 'Mermeladas y Miel')
 insert into Producto_Area values(14, 'Arroz, Frijol y Semillas')
 insert into Producto_Area values(15, 'Aceites de Cocina')
-insert into Producto_Area values(16, 'Alimentos Instant√°neos')
+insert into Producto_Area values(16, 'Alimentos Instant·neos')
 insert into Producto_Area values(17, 'Leche Evaporada, Condensada, otros')
 insert into Producto_Area values(18, 'Pastelillos')
 
-insert into Proveedor values(1,'The Coca Cola Company M√©xico', '018007044400', 'p', 1)
+insert into Proveedor values(1,'The Coca Cola Company MÈxico', '018007044400', 'p', 1)
 insert into Proveedor values(2,'Sello Rojo', '018006277656', 'p', 1)
 insert into Proveedor values(3,'Mexenil', '018007006050', 'p', 1)
 insert into Proveedor values(4,'Alpura', '018000025787', 'p', 1)
 insert into Proveedor values(5,'Bimbo', '018009102030', 'p', 1)
 insert into Proveedor values(6,'Bonafont', '018009992662', 'p', 1)
-insert into Proveedor values(7,'Nestl√©', '018003637853', 'p', 1)
+insert into Proveedor values(7,'NestlÈ', '018003637853', 'p', 1)
 insert into Proveedor values(8,'Sabritas', '018009019500', 'p', 1)
 insert into Proveedor values(9,'PepsiCo', '018000032762', 'p', 1)
 insert into Proveedor values(10,'McCormick & Company', '018000031807', 'p', 1)
 insert into Proveedor values(11,'Unilever', '018007157444', 'p', 1)
 insert into Proveedor values(12,'Marinela', '018009102300', 'p', 1)
-insert into Proveedor values(13,'Papas Gen√©ricas', '018002323792', 'p', 1)
-insert into Proveedor values(14,'Cocas Gen√©ricas', '018007890345', 'p', 1)
-insert into Proveedor values(15,'Tacos Do√±a Lala', '018000987654', 'p', 1)
+insert into Proveedor values(13,'Papas GenÈricas', '018002323792', 'p', 1)
+insert into Proveedor values(14,'Cocas GenÈricas', '018007890345', 'p', 1)
+insert into Proveedor values(15,'Tacos DoÒa Lala', '018000987654', 'p', 1)
 
 insert into Producto values(00750102051534, 'Leche Entera 250ml', 2, 1, 1)
 insert into Producto values(00750102051530, 'Leche Entera 500ml', 2, 1, 1)
@@ -188,8 +196,8 @@ insert into Producto values(00750105534000, 'Sidral Mundet 500ml Botella', 1, 2,
 insert into Producto values(00750106555678, 'Gansito', 12, 18, 1)
 insert into Producto values(00750106532334, 'Barritas: Fresa', 12, 5, 1)
 insert into Producto values(00750106510001, 'ChocoRoles', 12, 18, 1)
-insert into Producto values(00750106506432, 'Ping√ºinos', 12, 18, 1)
-insert into Producto values(00750106545852, 'Pr√≠ncipe', 12, 5, 1)
+insert into Producto values(00750106506432, 'Ping¸inos', 12, 18, 1)
+insert into Producto values(00750106545852, 'PrÌncipe', 12, 5, 1)
 insert into Producto values(00750106545851, 'Canelitas', 12, 5, 1)
 insert into Producto values(00750106548000, 'Triki-trakes', 12, 5, 1)
 insert into Producto values(00750106516173, 'Submarinos: Fresa', 12, 18, 1)
@@ -287,16 +295,16 @@ insert into Prov_MP values (5,'BanRegio')
 insert into Prov_MP values (6,'Empresa Local')
 insert into Prov_MP values (7,'Banxico')
 
-insert into MetodoPago values (1,'Tarjeta de Cr√©dito', 1,1 )
-insert into MetodoPago values (2,'Tarjeta de Cr√©dito', 2,1 )
-insert into MetodoPago values (3,'Tarjeta de Cr√©dito', 3,1 )
-insert into MetodoPago values (4,'Tarjeta de Cr√©dito', 4,1 )
-insert into MetodoPago values (5,'Tarjeta de Cr√©dito', 5,1 )
-insert into MetodoPago values (6,'Tarjeta de D√©bito', 1,1 )
-insert into MetodoPago values (7,'Tarjeta de D√©bito', 2,1 )
-insert into MetodoPago values (8,'Tarjeta de D√©bito', 3,1 )
-insert into MetodoPago values (9,'Tarjeta de D√©bito', 4,1 )
-insert into MetodoPago values (10,'Tarjeta de D√©bito', 5,1 )
+insert into MetodoPago values (1,'Tarjeta de CrÈdito', 1,1 )
+insert into MetodoPago values (2,'Tarjeta de CrÈdito', 2,1 )
+insert into MetodoPago values (3,'Tarjeta de CrÈdito', 3,1 )
+insert into MetodoPago values (4,'Tarjeta de CrÈdito', 4,1 )
+insert into MetodoPago values (5,'Tarjeta de CrÈdito', 5,1 )
+insert into MetodoPago values (6,'Tarjeta de DÈbito', 1,1 )
+insert into MetodoPago values (7,'Tarjeta de DÈbito', 2,1 )
+insert into MetodoPago values (8,'Tarjeta de DÈbito', 3,1 )
+insert into MetodoPago values (9,'Tarjeta de DÈbito', 4,1 )
+insert into MetodoPago values (10,'Tarjeta de DÈbito', 5,1 )
 insert into MetodoPago values (11,'Tarjeta de Puntos', 6,1 )
 insert into MetodoPago values (12,'Efectivo', 7,1 )
 
@@ -305,10 +313,10 @@ insert into Cliente values (002, 'Carolina', 'Acosta', 'Canto',8158965775, 'ACCC
 insert into Cliente values (003, 'Joaquin Hugo', 'Arroyo', 'Soto',8148569235, 'ARSJ620303DC3',1)
 insert into Cliente values (004, 'Maria', 'Caballero', 'Valle',8116859645, 'CAVM940515CD2',1)
 insert into Cliente values (005, 'Prudenciano', 'Cadena', 'Palacios',8178452254, 'CAPP851007TF5',1)
-insert into Cliente values (006, 'Nicol√°s', 'Cerrillo', 'Garnica',8187988545, 'CEGN870630KL9',1)
-insert into Cliente values (007, 'Mar√≠a Manuela', 'Figueroa', 'Salmor√°n',8174569585, 'FISM901231DR1',1)
+insert into Cliente values (006, 'Nicol·s', 'Cerrillo', 'Garnica',8187988545, 'CEGN870630KL9',1)
+insert into Cliente values (007, 'MarÌa Manuela', 'Figueroa', 'Salmor·n',8174569585, 'FISM901231DR1',1)
 insert into Cliente values (008, 'Antonio', ' Garcia', 'Marin',8187985568, 'GAMA870627TK7',1)
-insert into Cliente values (009, 'Jose', 'Iba√±ez', 'Saenz',8187882663, 'IBSJ800415CD1',1)
+insert into Cliente values (009, 'Jose', 'IbaÒez', 'Saenz',8187882663, 'IBSJ800415CD1',1)
 insert into Cliente values (010, 'Ignacio', 'Puchol', 'Torres',8187956325, 'PUTI660613ZZ6',1)
 
 insert into Tarjeta_Puntos values (NEWID(), 001, 25)
@@ -685,3 +693,73 @@ AS
 		SELECT p.iId_Proveedor as ID, p.vNombre_Pvd as Proveedor, p.iTelefono_Pvd as Telefono, 
 		p.cTipo_Pvd as Tipo, p.bStatus_Pvd as Estado
 		FROM Proveedor as p
+
+--PROCEDURES
+
+CREATE PROCEDURE ProductoIdPrecio(@valor bigint)
+as begin
+	select * from Producto_Precio
+	where iCodigoBarras_Pd = @valor
+
+	select * from Producto
+	where iCodigoBarras_Pd = @valor
+
+end
+GO
+
+exec ProductoIdPrecio 750106545851
+
+CREATE PROCEDURE EmpleadoCuentaSelect(@valor2 int)
+as begin
+	select * from Empleado
+	where iId_Empleado = @valor2
+
+	select * from Empleado_Cuenta
+	where iId_Empleado = @valor2
+
+end
+GO
+
+CREATE PROCEDURE ClienteTPSelect(@valor3 int)
+as begin
+	select * from Cliente
+	where iId_Cliente = @valor3
+
+	select * from Tarjeta_Puntos
+	where iId_Cliente = @valor3
+
+end
+GO
+
+CREATE PROCEDURE SelectProductoArea(@valor4 int )
+as begin
+	select * from Producto
+	where iIdArea_Pd = @valor4
+
+	select * from Producto_Area
+	where iIdArea_Pd = @valor 4
+
+end
+GO
+
+CREATE PROCEDURE SelectFacturaEmpleado(@valor5 int )
+as begin
+	select * from Header_Factura
+	where iId_Empleado = @valor4
+
+	select * from Cliente
+	where iId_Empleado = @valor4
+
+end
+GO
+ 
+ CREATE PROCEDURE SelectFacturaCliente(@valor5 int )
+as begin
+	select * from Header_Factura
+	where iId_Cliente = @valor5
+
+	select * from Cliente
+	where iId_Cliente = @valor5
+
+end
+GO
